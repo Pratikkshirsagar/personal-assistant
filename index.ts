@@ -1,5 +1,5 @@
 import { ChatGroq } from "@langchain/groq";
-import { createEventTool, getEventTool } from "./tools";
+import { createEventTool, getEventsTool } from "./tools";
 import {
   END,
   MemorySaver,
@@ -9,7 +9,7 @@ import {
 import { ToolNode } from "@langchain/langgraph/prebuilt";
 import type { AIMessage } from "langchain";
 
-const tools = [createEventTool, getEventTool];
+const tools = [createEventTool, getEventsTool];
 
 const model = new ChatGroq({
   model: "openai/gpt-oss-120b",

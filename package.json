@@ -13,6 +13,9 @@
     "@langchain/core": "^1.1.0",
     "@langchain/groq": "^1.0.1",
     "@langchain/langgraph": "^1.0.2",
+    "@types/express": "^5.0.5",
+    "express": "^5.1.0",
+    "googleapis": "^166.0.0",
     "langchain": "^1.1.0",
     "zod": "^4.1.13"
   }
